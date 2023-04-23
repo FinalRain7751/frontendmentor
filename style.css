@@ -33,11 +33,17 @@ p {
 
 /* General Styling */
 
+main {
+  min-height: 95vh;
+}
+
 body {
   font-size: var(--fs-400);
   font-family: var(--ff-base);
   color: var(--clr-darker);
   background: var(--clr-neutral-200);
+  margin: 0 0.5em;
+  height: 100vh;
 }
 
 img {
@@ -55,8 +61,8 @@ img {
   --fg: var(--clr-accent);
   background: var(--clr-neutral-100);
   width: 100%;
-  max-width: 550px;
-  margin: 1em 0.5em;
+  max-width: 360px;
+  margin: 1em 0.5em 0 0.5em;
   flex-direction: column;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -140,8 +146,9 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -150,12 +157,12 @@ img {
 
 @media (min-width: 600px) {
   main {
-    height: 95vh;
     align-items: center;
   }
 
   .card {
     flex-direction: row;
+    max-width: 550px;
   }
 
   .desktop {
