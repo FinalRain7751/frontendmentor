@@ -1,0 +1,87 @@
+:root {
+  --ff: "Outfit", sans-serif;
+
+  --fs-400: 0.9375rem;
+  --fs-500: 1.325rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --clr-neutral: white;
+  --clr-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: var(--ff);
+  font-size: var(--fs-400);
+  color: var(--clr-grayish-blue);
+  background: var(--clr-gray);
+}
+
+main {
+  height: 95vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr {
+  width: 80%;
+  background: var(--clr-neutral);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+  .qr {
+    min-width: 300px;
+    width: 20%;
+  }
+}
+
+.flow-content > * {
+  margin-bottom: 1rem;
+}
+
+.qr img {
+  border-radius: 20px;
+}
+
+.qr h1 {
+  color: var(--clr-dark-blue);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-700);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
