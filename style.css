@@ -1,0 +1,177 @@
+/* Custom properties */
+
+:root {
+  --ff-base: "Montserrat", sans-serif;
+  --ff-style: "Fraunces", serif;
+
+  --fs-400: 0.875rem;
+
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --clr-neutral-100: white;
+  --clr-neutral-200: hsl(30, 38%, 92%);
+  --clr-darker: hsl(228, 12%, 48%);
+  --clr-dark: hsl(212, 21%, 14%);
+  --clr-accent: hsl(158, 36%, 37%);
+}
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* General Styling */
+
+body {
+  font-size: var(--fs-400);
+  font-family: var(--ff-base);
+  color: var(--clr-darker);
+  background: var(--clr-neutral-200);
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  --ff: var(--ff-style);
+  --fg: var(--clr-accent);
+  background: var(--clr-neutral-100);
+  width: 100%;
+  max-width: 550px;
+  margin: 1em 0.5em;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.desktop {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  text-decoration: none;
+  padding: 0.75em 0;
+  border-radius: 10px;
+  background: var(--clr-accent);
+  color: var(--clr-neutral-100);
+
+  justify-content: center;
+}
+
+.btn:hover,
+.btn:focus {
+  background: rgb(3, 58, 3);
+}
+
+/* Utility Classes */
+
+.flow-content > * + * {
+  margin-top: 0.825rem;
+}
+
+/* Specific Styling */
+
+.hero_content {
+  padding: 1.9rem;
+  line-height: 1.6;
+
+  background: var(--clr-neutral-100);
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.card h1 {
+  font-family: var(--ff-style);
+  color: var(--clr-dark);
+  line-height: 1.1;
+}
+
+.pricing {
+  justify-content: flex-start;
+}
+
+.price {
+  font-family: var(--ff);
+  font-size: 2rem;
+  color: var(--fg, black);
+}
+
+.actual_price {
+  margin-left: 1em;
+  text-decoration: line-through;
+}
+
+.add_to_cart {
+  font-weight: var(--fw-700);
+}
+
+.add_to_cart::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  margin-right: 1em;
+  transform: translateY(0.2em);
+  background-image: url("./images/icon-cart.svg");
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  main {
+    height: 95vh;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .hero_content,
+  .hero_img {
+    width: 50%;
+  }
+
+  .hero_content {
+    padding: 1.4em 1.9em;
+  }
+}
