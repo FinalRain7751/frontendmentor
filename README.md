@@ -25,8 +25,8 @@ This is my first frontendnmentor challenge. It is a simple web page displaying a
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/FinalRain7751/frontendmentor/tree/qr-code-component
+- Live Site URL: https://qr-code-component--eloquent-bublanina-54b922.netlify.app/
 
 ## My process
 
@@ -74,4 +74,4 @@ There are a lot of things I need to learn about CSS. My next target is to master
 
 ## Acknowledgments
 
-I would like to thank Kevin Powell for my progress with CSS. His YouTube videos and 'CSS Demystified' course have been of tremendous help in not only learning CSS but also in understanding all the intricacies of CSS. He made me fall in love with CSS.
+I would like to thank Kevin Powell for my progress with CSS. His YouTube videos and 'CSS Demystified' course have been of tremendous help in not only learning CSS but also in understanding all the intricacies of CSS.
