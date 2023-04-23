@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/FinalRain7751/frontendmentor/tree/product-preview-card-component)
-- Live Site URL: [Netlify](https://app.netlify.com/sites/tranquil-kitten-1a55b8/deploys/64456e837ba8f96ec404f3de)
+- Live Site URL: [Netlify](https://tranquil-kitten-1a55b8.netlify.app)
 
 ## My process
 
