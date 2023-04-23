@@ -25,8 +25,8 @@ This is my first frontendnmentor challenge. It is a simple web page displaying a
 
 ### Links
 
-- Solution URL: https://github.com/FinalRain7751/frontendmentor/tree/qr-code-component
-- Live Site URL: https://eloquent-bublanina-54b922.netlify.app/
+- Solution URL: [Github](https://github.com/FinalRain7751/frontendmentor/tree/qr-code-component)
+- Live Site URL: [Netlify](https://eloquent-bublanina-54b922.netlify.app/)
 
 ## My process
 
@@ -68,9 +68,8 @@ There are a lot of things I need to learn about CSS. My next target is to master
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Souransu Sen
 - Frontend Mentor - [@FinalRain7751](https://www.frontendmentor.io/profile/FinalRain7751)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 
