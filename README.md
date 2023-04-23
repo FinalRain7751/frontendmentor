@@ -26,7 +26,7 @@ This is my first frontendnmentor challenge. It is a simple web page displaying a
 ### Links
 
 - Solution URL: https://github.com/FinalRain7751/frontendmentor/tree/qr-code-component
-- Live Site URL: https://qr-code-component--eloquent-bublanina-54b922.netlify.app/
+- Live Site URL: https://eloquent-bublanina-54b922.netlify.app/
 
 ## My process
 
