@@ -1,1 +1,59 @@
 /* Custom properties */
+
+:root {
+  --ff-oswald: "Oswald", sans-serif;
+  --ff-montserrat: "Montserrat", sans-serif;
+
+  --fs-200: 1rem;
+  --fs-300: 1.125rem;
+  --fs-400: 1.3125rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.875rem;
+  --fs-700: 2.25rem;
+  --fs-900: 5.625rem;
+
+  --fw-regular: 400;
+  --fw-bold: 900;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #6f737f;
+  --clr-neutral-400: #384050;
+  --clr-neutral-900: #2e323f;
+  --clr-accent-100: #a59678;
+}
+
+/* Reset  */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+ol,
+dl {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Typography */
+
+body {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+}
