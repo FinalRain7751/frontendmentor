@@ -14,16 +14,21 @@
   <body>
     <header class="bg-dark bg-dark__darker">
       <nav class="nav container">
-        <a href="#" class="logo"
-          ><img src="./logo.svg" alt="Conquering Responsive Layouts Logo"
-        /></a>
-        <div class="nav_list">
-          <ul class="nav_list--pages">
+        <div class="top-header">
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+          </button>
+          <a href="#" class="logo"
+            ><img src="./logo.svg" alt="Conquering Responsive Layouts Logo"
+          /></a>
+        </div>
+        <div class="nav_list flow-content text-center">
+          <ul class="nav_list--pages flow-content">
             <li><a href="#" class="btn btn-primary">Home</a></li>
             <li><a href="#" class="btn btn-primary">About</a></li>
             <li><a href="#" class="btn btn-primary">Contact</a></li>
           </ul>
-          <ul class="nav_list--login">
+          <ul class="nav_list--login flow-content">
             <li><a href="#" class="btn btn-primary">Sign In</a></li>
             <li><a href="#" class="btn btn-secondary">Sign Up</a></li>
           </ul>
@@ -47,7 +52,7 @@
           </div>
         </div>
       </section>
-      <section class="preview">
+      <section class="preview text-center">
         <div class="container split">
           <div class="flow-content">
             <h3>Mobile-first</h3>
@@ -135,7 +140,7 @@
         <div class="container flow-content">
           <h2 class="footer_header">Just scratching the surface</h2>
           <div class="footer_inner split">
-            <dl class="flow-content">
+            <dl class="flow-content about">
               <dt><h4>About our company</h4></dt>
               <dd>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
@@ -144,29 +149,32 @@
                 quaerat.
               </dd>
             </dl>
-            <dl class="flow-content">
-              <dt><h4>Getting around</h4></dt>
-              <dd><a href="#">Home</a></dd>
-              <dd><a href="#">About</a></dd>
-              <dd><a href="#">Contact</a></dd>
-            </dl>
-            <dl class="flow-content">
-              <dt><h4>Other things</h4></dt>
-              <dd><a href="#">Lorem ipsum</a></dd>
-              <dd><a href="#">dolor</a></dd>
-              <dd><a href="#">sit amet</a></dd>
-              <dd><a href="#">consectetur</a></dd>
-            </dl>
-            <dl class="flow-content">
-              <dt><h4>And more</h4></dt>
-              <dd><a href="#">Lorem ipsum</a></dd>
-              <dd><a href="#">dolor</a></dd>
-              <dd><a href="#">sit amet</a></dd>
-              <dd><a href="#">consectetur</a></dd>
-            </dl>
+            <div class="split">
+              <dl class="flow-content">
+                <dt><h4>Getting around</h4></dt>
+                <dd><a href="#">Home</a></dd>
+                <dd><a href="#">About</a></dd>
+                <dd><a href="#">Contact</a></dd>
+              </dl>
+              <dl class="flow-content">
+                <dt><h4>Other things</h4></dt>
+                <dd><a href="#">Lorem ipsum</a></dd>
+                <dd><a href="#">dolor</a></dd>
+                <dd><a href="#">sit amet</a></dd>
+                <dd><a href="#">consectetur</a></dd>
+              </dl>
+              <dl class="flow-content">
+                <dt><h4>And more</h4></dt>
+                <dd><a href="#">Lorem ipsum</a></dd>
+                <dd><a href="#">dolor</a></dd>
+                <dd><a href="#">sit amet</a></dd>
+                <dd><a href="#">consectetur</a></dd>
+              </dl>
+            </div>
           </div>
         </div>
       </footer>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>
