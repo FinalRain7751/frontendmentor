@@ -221,29 +221,45 @@ main {
 }
 
 .summary_items > li {
+  position: relative;
   --flow-spacer: 0.75rem;
   padding: 0.5em;
+  padding-left: 30px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
 }
 
+.summary_items > li::before {
+  content: "";
+  background-image: var(--icon-url);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: translateX(-25px);
+  /* display: inline-block; */
+}
+
 .summary_items > li:nth-child(1) {
+  --icon-url: url(./assets/images/icon-reaction.svg);
   background-color: var(--clr-primary-100-transparent);
   color: var(--clr-primary-100);
 }
 
 .summary_items > li:nth-child(2) {
+  --icon-url: url(./assets/images/icon-memory.svg);
   color: var(--clr-primary-200);
   background-color: var(--clr-primary-200-transparent);
 }
 
 .summary_items > li:nth-child(3) {
+  --icon-url: url(./assets/images/icon-verbal.svg);
   color: var(--clr-primary-300);
   background-color: var(--clr-primary-300-transparent);
 }
 
 .summary_items > li:nth-child(4) {
+  --icon-url: url(./assets/images/icon-visual.svg);
   color: var(--clr-primary-400);
   background-color: var(--clr-primary-400-transparent);
 }
