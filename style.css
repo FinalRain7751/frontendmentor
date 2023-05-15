@@ -61,6 +61,7 @@ ol[class] {
 /* Typography */
 
 body {
+  height: 100vh;
   font-family: var(--ff);
   font-size: var(--fs-400);
   color: var(--clr-neutral-400);
@@ -104,10 +105,17 @@ body {
 }
 
 /* General layout */
+main {
+  padding-bottom: 5vh;
+}
 
 @media (min-width: 40em) {
+  main {
+    padding: 0;
+  }
+
   body {
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-template:
       ". . ." 1fr
@@ -251,6 +259,7 @@ body {
   margin: 0 auto;
   font-size: 11px;
   text-align: center;
+  background-color: var(--clr-neutral-100);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
